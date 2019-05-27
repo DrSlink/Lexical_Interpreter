@@ -1298,7 +1298,6 @@ void Executer::execute(Poliz &prog) {
             case LEX_ID:
                 v = pc_el.get_value();
                 if (TID[v].get_assign()) {
-                    //cout<<"oooo";
                     //if (TID[i].get_type ()==LEX_STRING){
                     //int v=TID[i].get_value ();
 
